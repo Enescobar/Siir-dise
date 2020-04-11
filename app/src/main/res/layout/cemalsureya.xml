@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgapps"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <RelativeLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="36dp"
+                android:text="Cemal Süreya"
+                android:id="@+id/txt_ad"
+                android:textColor="#FFFFFF"
+                />
+
+
+            <ImageView
+                android:src="@drawable/cemalbaba"
+                android:layout_width="130dp"
+                android:layout_height="103dp"
+                android:layout_alignParentRight="true"
+                />
+
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+
+                >
+
+                <Button
+                    android:background="@drawable/custom_button"
+                    android:text="18 Aralık"
+                    android:textSize="20dp"
+                    android:id="@+id/btn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+
+                >
+
+                <Button
+                    android:text="8:10 Vapuru"
+                    android:textSize="20dp"
+                    android:id="@+id/btn2"
+                    android:background="@drawable/custom_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+
+                >
+
+                <Button
+                    android:background="@drawable/custom_button"
+                    android:id="@+id/btn3"
+                    android:text="Açılmamış Kapılar"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+
+                >
+
+                <Button
+                    android:id="@+id/btn4"
+                    android:text="Az Yaşadıksa da"
+                    android:textSize="20dp"
+                    android:background="@drawable/custom_button"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+
+                >
+                <Button
+                    android:id="@+id/btn5"
+                    android:text="Biliyorum Sana Giden"
+                    android:background="@drawable/custom_button"
+
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+
+                >
+
+                <Button
+                    android:id="@+id/btn66"
+                    android:text="Bir Gün"
+                    android:textSize="20dp"
+                    android:background="@drawable/custom_button"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="DuplicateIds">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+
+                >
+
+                <Button
+                    android:id="@+id/btn7"
+                    android:text="Cigarayı Attım denize"
+                    android:textSize="20dp"
+                    android:background="@drawable/custom_button"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+
+                >
+
+                <Button
+                    android:id="@+id/btn8"
+                    android:text="Eski Kadınlar"
+                    android:textSize="20dp"
+                    android:background="@drawable/custom_button"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_button"
+
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+
+                >
+
+                <Button
+                    android:id="@+id/btn9"
+                    android:text="Lavanta"
+                    android:textSize="20dp"
+                    android:background="@drawable/custom_button"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+
+                >
+
+                <Button
+                    android:id="@+id/btn10"
+                    android:text="Mutsuzluk Gülümseyerek"
+                    android:textSize="20dp"
+                    android:background="@drawable/custom_button"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+
+                >
+
+                <Button
+                    android:id="@+id/btn11"
+                    android:text="Piyale"
+                    android:textSize="20dp"
+                    android:background="@drawable/custom_button"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+
+                >
+
+                <Button
+                    android:id="@+id/btn12"
+                    android:text="Sevgilim Ben şimdi"
+                    android:textSize="20dp"
+                    android:background="@drawable/custom_button"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+
+                >
+
+                <Button
+                    android:id="@+id/btn13"
+                    android:text="Şarap"
+                    android:textSize="20dp"
+                    android:background="@drawable/custom_button"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+
+                >
+
+                <Button
+                    android:id="@+id/btn14"
+                    android:text="Turgut Uyar"
+                    android:textSize="20dp"
+                    android:background="@drawable/custom_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+
+                >
+
+                <Button
+                    android:id="@+id/btn15"
+                    android:text="Güzelleme"
+                    android:textSize="20dp"
+                    android:background="@drawable/custom_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+
+                >
+
+                <Button
+                    android:id="@+id/btn16"
+                    android:text="Eski Kadınlar"
+                    android:textSize="20dp"
+                    android:background="@drawable/custom_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+
+                >
+
+                <Button
+                    android:id="@+id/btn17"
+                    android:text="İki Kalp"
+                    android:textSize="20dp"
+                    android:background="@drawable/custom_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+

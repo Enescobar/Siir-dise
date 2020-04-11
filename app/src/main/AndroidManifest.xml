@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.siirdise">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/book"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".nazimhikmet"></activity>
+        <activity android:name=".ozdemirasaf"></activity>
+        <activity android:name=".atillailhan"></activity>
+        <activity android:name=".cemalsureya"></activity>
+        <activity android:name=".ahmedarif"></activity>
+        <activity android:name=".canyucel"></activity>
+        <activity android:name=".orhanvelikanik"></activity>
+        <activity android:name=".edipcansever"></activity>
+        <activity android:name=".yahyakemal"></activity>
+        <activity android:name=".cahitsitki"></activity>
+        <activity android:name=".turgutuyar"></activity>
+        <activity android:name=".sezaikarakoc"></activity>
+        <activity android:name=".cahitzarifoglu"></activity>
+        <activity android:name=".eceayhan"></activity>
+        <activity android:name=".aziznesin"></activity>
+<activity android:name=".gultenakin"></activity>
+<activity android:name=".metinaltiok"></activity>
+        <activity android:name=".sabahattinali"></activity>
+
+    </application>
+
+</manifest>
